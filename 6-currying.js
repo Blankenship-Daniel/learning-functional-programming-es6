@@ -10,7 +10,7 @@ let dragon2 = name => size => element =>
   size + ' dragon that breathes ' +
   element + '!'
 
-console.log(dragon1('Felix', 'large', 'ice')) 
+console.log(dragon1('Felix', 'large', 'ice'))
 console.log(dragon2('Peter')('small')('lightning'))
 
 let dragons = [{
